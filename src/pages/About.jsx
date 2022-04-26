@@ -13,12 +13,12 @@ const About = () => {
           </div>
           
           </div>
-          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
+          <div className='max-w-[1050px] w-full grid sm:grid-cols-2 gap-8 px-4'>
               <img className="me-image" src="./assets/Me.png"/>
            
             <div>
             <div className='about-text'>
-            <h1>Hi. Please take a look around!</h1>
+            <h1> Please take a look around!</h1>
             </div>
               <p>I have a technical background with a creative passion and I have used my skills and passions to problem solve and design web applications. I am passionate about building great 
               software solutions and designing dynanmic user interfaces that improve

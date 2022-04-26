@@ -36,8 +36,9 @@
 }
 .about-text{
   font-size:40px;
-  font-weight: 50px;
-  color:#F5E6CA;
+  font-weight: 100px;
+  color:rgb(40, 74, 117);
+  text-shadow: black;
 }
 
 .about-text p{
