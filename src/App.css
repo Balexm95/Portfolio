@@ -1,38 +1,198 @@
-.App {
+
+.nav-link{
+  margin:30px;  
+}
+.nav-link:hover{
+   background-color:#FF4C29;
+   border-radius: 7px;
+   margin:30px;
+   color:black;
+   
+}
+.me-logo{
+  cursor:pointer;
+}
+.active{
+  background-color:white;
+  border-radius:7px;
+  color:#0a192f;
+}
+.contact-form-button{
+  border-radius: 10px;;
+}
+.contact-buttons{
+  margin:10px;
+  
+}
+
+.work-btn{
+  border-radius: 10px;
+  background-color:#0a192f;
+  color:white;
+}
+
+.work-btn:hover{
+  background-color:#F54748;
+}
+.about-text{
+  font-size:40px;
+  font-weight: 50px;
+  color:#F5E6CA;
+}
+
+.about-text p{
+  color:white;
+}
+.me-image{
+  border-radius: 100%;
+  
+}
+
+.contact-field{
+   border-radius:10px;
+   border:2px solid black;
+} 
+
+
+.skills-slider{
+   margin:40px;
+   padding:20px;
+}
+/*icon slider*/
+.icon-slider-container{
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+  
+  
+}
+
+.slider-card-title{
+  color:#fff;
+  margin:80px;
+  font-weight:500;
   text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+#icon-slider{
+  width:85%;
+  height:300px;
+  padding:20px;
+  position:absolute;
+  display:flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+}
+
+#slider{
+  width:100%;
+  height:100%;
+  white-space: nowrap;
+  overflow-x:scroll;
+  scrollbar-width:none;
+  scroll-behavior:smooth;
+  
+}
+#slider::-webkit-scrollbar{
+display:none;
+}
+.slider-card-image{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  padding:20px;
+  width:80%;
+  height:120px;
+ 
+  
+  
+  
+}
+
+.slider-icon {
+  background:white;
+  border-radius:100%;
+  color:#22211e;
+  position:absolute;
+  opacity:0.5;
+  cursor:pointer;
+  background-color:white;
+}
+.slider-icon.left {
+  left:0;
+  
+}
+.slider-icon.right {
+ right:0;
+  
+}
+
+.slider-icon:hover{
+  opacity:1;
+}
+
+.slider-card{
+  width:200px;
+  height: 200px;
+  display:inline-block;
+  margin-left:5px;
+  margin-right:5px;
+  background-color: rgba(255, 255, 255, 0.226);
+  border-radius:10px;
+  cursor:pointer;
+
+
+}
+@media screen and (max-width: 900px) and (min-width: 320px) {
+  #mainfooter {
+    padding: 15px;
+  }
+}
+#mainfooter {
+  display: flex;
+  width: 100%;
+  height: 15vh;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 15px;
+  background-color: black;
+  color: #fff;
+}
+
+.fa {
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  color: #fff;
+  background: blue;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 40em;
+}
+
+.fa-github {
+  color: #fff;
+  background: rgb(42, 44, 46);
+  border-radius: 40em;
+}
+.fa-file {
+  background: white;
+  color: rgb(86, 170, 190);
+  border-radius: 40em;
+}
+.fa-google {
+  background: #dd4b39;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border-radius: 40em;
 }
