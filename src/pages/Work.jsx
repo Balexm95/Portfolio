@@ -89,7 +89,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/Balexm95/Grubhub-Redesign'>
+                <a href='https://github.com/yasminejim/Grubhub-Redesign'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
