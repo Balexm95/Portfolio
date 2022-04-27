@@ -33,7 +33,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Eccomerce Website
+                Ecomerce Website
               </span>
               <div className='pt-8 text-center'>
                
@@ -107,12 +107,12 @@ const Work = () => {
                 Password Manager
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://main.ds0330jpvfn6o.amplifyapp.com/'>
+                <a href='https://passwords-m.herokuapp.com/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/Balexm95/PasswordManager/tree/main'>
+                <a href='https://github.com/Balexm95/Pass-manager'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
